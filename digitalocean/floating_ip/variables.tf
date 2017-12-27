@@ -1,2 +1,2 @@
-variable "droplet_id" {}
-variable "region" {}
+variable "my_droplet_id" {}
+variable "my_region" {}
