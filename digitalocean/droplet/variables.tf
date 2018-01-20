@@ -19,5 +19,5 @@ variable "ssh_keys" {
 }
 
 variable "droplet_image" {
-  default = "ubuntu-17-04-x64"
+  default = "ubuntu-16-04-x64"
 }
