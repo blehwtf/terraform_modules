@@ -67,3 +67,6 @@
 [submodule "aws/terraform-aws-acm"]
 	path = aws/terraform-aws-acm
 	url = git@github.com:terraform-aws-modules/terraform-aws-acm.git
+[submodule "aws/terraform-aws-secure-baseline"]
+	path = aws/terraform-aws-secure-baseline
+	url = https://github.com/nozaq/terraform-aws-secure-baseline.git
