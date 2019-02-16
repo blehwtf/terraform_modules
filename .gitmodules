@@ -1,0 +1,69 @@
+[submodule "aws/terraform-aws-vpc"]
+	path = aws/terraform-aws-vpc
+	url = git@github.com:terraform-aws-modules/terraform-aws-vpc.git
+[submodule "aws/terraform-aws-ec2-instance"]
+	path = aws/terraform-aws-ec2-instance
+	url = git@github.com:terraform-aws-modules/terraform-aws-ec2-instance.git
+[submodule "aws/terraform-aws-rds"]
+	path = aws/terraform-aws-rds
+	url = git@github.com:terraform-aws-modules/terraform-aws-rds.git
+[submodule "aws/terraform-aws-elb"]
+	path = aws/terraform-aws-elb
+	url = git@github.com:terraform-aws-modules/terraform-aws-elb.git
+[submodule "aws/terraform-aws-autoscaling"]
+	path = aws/terraform-aws-autoscaling
+	url = git@github.com:terraform-aws-modules/terraform-aws-autoscaling.git
+[submodule "aws/terraform-aws-ecs"]
+	path = aws/terraform-aws-ecs
+	url = git@github.com:terraform-aws-modules/terraform-aws-ecs.git
+[submodule "aws/terraform-aws-security-group"]
+	path = aws/terraform-aws-security-group
+	url = git@github.com:terraform-aws-modules/terraform-aws-security-group.git
+[submodule "aws/terraform-aws-customer-gateway"]
+	path = aws/terraform-aws-customer-gateway
+	url = git@github.com:terraform-aws-modules/terraform-aws-customer-gateway.git
+[submodule "aws/terraform-aws-redshift"]
+	path = aws/terraform-aws-redshift
+	url = git@github.com:terraform-aws-modules/terraform-aws-redshift.git
+[submodule "aws/terraform-aws-vpn-gateway"]
+	path = aws/terraform-aws-vpn-gateway
+	url = git@github.com:terraform-aws-modules/terraform-aws-vpn-gateway.git
+[submodule "aws/terraform-aws-alb"]
+	path = aws/terraform-aws-alb
+	url = git@github.com:terraform-aws-modules/terraform-aws-alb.git
+[submodule "aws/terraform-aws-sqs"]
+	path = aws/terraform-aws-sqs
+	url = git@github.com:terraform-aws-modules/terraform-aws-sqs.git
+[submodule "aws/terraform-aws-sns"]
+	path = aws/terraform-aws-sns
+	url = git@github.com:terraform-aws-modules/terraform-aws-sns.git
+[submodule "aws/terraform-aws-rds-aurora"]
+	path = aws/terraform-aws-rds-aurora
+	url = git@github.com:terraform-aws-modules/terraform-aws-rds-aurora.git
+[submodule "aws/terraform-aws-iam"]
+	path = aws/terraform-aws-iam
+	url = git@github.com:terraform-aws-modules/terraform-aws-iam.git
+[submodule "aws/terraform-aws-notify-slack"]
+	path = aws/terraform-aws-notify-slack
+	url = git@github.com:terraform-aws-modules/terraform-aws-notify-slack.git
+[submodule "aws/atlantis-demo"]
+	path = aws/atlantis-demo
+	url = git@github.com:terraform-aws-modules/atlantis-demo.git
+[submodule "aws/terraform-aws-atlantis"]
+	path = aws/terraform-aws-atlantis
+	url = git@github.com:terraform-aws-modules/terraform-aws-atlantis.git
+[submodule "aws/terraform-aws-eks"]
+	path = aws/terraform-aws-eks
+	url = git@github.com:terraform-aws-modules/terraform-aws-eks.git
+[submodule "aws/terraform-aws-ebs-optimized"]
+	path = aws/terraform-aws-ebs-optimized
+	url = git@github.com:terraform-aws-modules/terraform-aws-ebs-optimized.git
+[submodule "aws/terraform-aws-s3-bucket"]
+	path = aws/terraform-aws-s3-bucket
+	url = git@github.com:terraform-aws-modules/terraform-aws-s3-bucket.git
+[submodule "aws/terraform-aws-s3-object"]
+	path = aws/terraform-aws-s3-object
+	url = git@github.com:terraform-aws-modules/terraform-aws-s3-object.git
+[submodule "aws/terraform-aws-acm"]
+	path = aws/terraform-aws-acm
+	url = git@github.com:terraform-aws-modules/terraform-aws-acm.git
