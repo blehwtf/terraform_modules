@@ -1,0 +1,29 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+disable_root: true
+users:
+  - name: adminestrone
+    gecos: Charlie Root
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    shell: /bin/bash
+    lock_passwd: false
+    ssh_authorized_keys:
+        - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOz6wX1l4GDEEsCPwVRt+8jnpUiy5PSB99bkDmm+fX5x user@example"
+  - name: catbat
+    gecos: Mr. Whiskers
+    groups: users
+    shell: /bin/bash
+    lock_passwd: false
+    ssh_authorized_keys:
+        - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOz6wX1l4GDEEsCPwVRt+8jnpUiy5PSB99bkDmm+fX5x user@example"
+packages:
+  - ufw
+  - tmux
+  - irssi
+  - dtach
+runcmd:
+  - ufw allow 174.223.135.39
+  - ufw --force enable 
+  - ufw reload

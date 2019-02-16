@@ -1,0 +1,9 @@
+droplet_image="debian-9-x64"
+
+droplet_size = "1gb"
+
+fqdn = "example.YOUR_DOMAIN"
+
+tags = [""]
+
+dns_domain = "YOUR_DOMAIN"
