@@ -1,11 +1,12 @@
 resource "digitalocean_droplet" "my_droplet" {
   name = var.fqdn
-  ssh_keys = var.ssh_keys
   region = var.droplet_region
-  size = var.droplet_size
-  user_data = file(var.user_data_file)
-  tags = var.tags
   image = var.droplet_image
-  ipv6 = "true"
-  private_networking = "true"
+  size = var.droplet_size
+  ssh_keys = var.ssh_keys
+  user_data = file(var.user_data_file)
+  ipv6 = var.ipv6 ? true : false
+  private_networking = var.private_networking ? true : false
+  backups = var.backups ? true : false
+  tags = var.tags
 }
