@@ -1,7 +1,7 @@
 /* variables.tf */
 variable "fqdn"  {}
 
-variable "user_data_file" {}
+variable "user_data" {}
 
 variable "tags" {}
 
