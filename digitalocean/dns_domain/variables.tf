@@ -1,1 +1,0 @@
-variable "dns_domain" {}
